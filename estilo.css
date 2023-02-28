@@ -230,9 +230,6 @@ header nav ul li{
     border-radius: 25px;
     border: solid #E5E0DF ;
     }
-header nav ul li:hover{
-    background-color: blueviolet;    
-    }
 header nav ul li a:hover{
     color: white;
     }
