@@ -5,7 +5,7 @@
 @media (min-width: 768px) {
 body{
     height: 635px;
-    background-image: url("fondo_horizontal.jpg");
+    background-image: url("https://raw.githubusercontent.com/Gabrielamora1/Gabriela-Mora-.github.io/d4f1915f566b7d685ca1c4dc58eb238337bf414a/fondo_horizontal.jpg");
     background-repeat: no-repeat;
     background-size: 100% 100%;
 }
@@ -155,7 +155,7 @@ footer ul li a{
 @media (max-width: 767px) {
     
 body{
-    background-image: url("fondo_vertical.jpg");
+    background-image: url("https://raw.githubusercontent.com/Gabrielamora1/Gabriela-Mora-.github.io/main/fondo_vertical.jpg");
     }
 .huella {
     width: 100%;
