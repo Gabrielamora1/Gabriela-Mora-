@@ -5,7 +5,7 @@
 @media (min-width: 768px) {
 body{
     height: 635px;
-    background-image: url("/PaginaDePractica/pagina_de_gabriela/fondo_horizontal.jpg");
+    background-image: url("fondo_horizontal.jpg");
     background-repeat: no-repeat;
     background-size: 100% 100%;
 }
@@ -155,7 +155,7 @@ footer ul li a{
 @media (max-width: 767px) {
     
 body{
-    background-image: url("/PaginaDePractica/pagina_de_gabriela/fondo_vertical.jpg");
+    background-image: url("fondo_vertical.jpg");
     }
 .huella {
     width: 100%;
