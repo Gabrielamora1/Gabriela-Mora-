@@ -1,0 +1,313 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+@media (min-width: 768px) {
+body{
+    height: 635px;
+    background-image: url("/PaginaDePractica/pagina_de_gabriela/fondo_horizontal.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+body header{
+    background-color: rgba(255, 255, 255, 0.8);
+    height: 15%;
+    width: 100%;
+    display: flex;
+}
+body header h1{
+    color: rgb(165, 93, 194);
+    font-size: 55px;
+    width: 30%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+body header div{
+    width: 10%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.huella {
+    width: 50%;
+  }
+header nav.elementos_cv{
+    width: 60%;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+  }
+.ocultar{
+    display: none;
+}
+nav ul {
+    display: flex;
+    list-style: none;
+    width: 80%;
+    margin: 0 auto;
+    
+}
+nav ul li{
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+nav ul li a.item{
+    color: rgb(100, 36, 202);
+    font-weight: bold;
+    font-size: 25px;
+    text-decoration: none;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    padding-top: 27%;
+}
+.item:hover{
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: .5s;
+}
+nav ul li:hover{
+    background-color: rgb(165, 93, 194);
+    transition: .5s;
+    border-radius: 25px;
+}
+
+aside{
+    width: 25%;
+    height: 70%;
+}
+aside div, img{
+    padding-top: 5%;
+    padding-left: 5%;
+    width: 100%;
+    border-radius: 50%;
+  
+}
+article h2{
+    margin-left: 15%;
+    margin-top: 2%;
+}
+article p{
+    font-weight: bold;
+    width: 70%;
+    margin-left: 9%;
+    padding-top: 3%;
+}
+ul li{
+    width: 70%;
+    margin: 0 auto;
+    padding-top: 1%;
+}
+article p ul:last-child{
+    margin-bottom: 5%;
+}
+
+.contenido_1, .contenido_2, .contenido_3, .contenido_4, .contenido_5{
+        
+    color: black;
+    width: 70%; 
+    height: 50%;
+    border-radius: 50px;
+    background-color: rgba(255, 255, 255, 0.8);
+    position: fixed;
+    top: 150px;
+    overflow-y: auto;
+    right: 100%;
+    transition: right 0.3s;
+    z-index: -1;
+    padding-bottom: 3%;
+    }
+.visible{
+    right: 0;
+    z-index: 1;
+    }
+footer{
+    height: 15%;
+    display: flex;
+    margin-left: 30%;
+    }
+footer ul{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: space-around;
+    
+    }
+footer ul li{
+    background-color:rgba(255, 255, 255, 0.8);
+    display: flex;
+    width: 95px;
+    border-radius: 50%;
+}
+footer ul li a{
+    text-decoration: none;
+    align-items: center;
+    margin: 0 auto;
+    display: flex;
+    font-size: 43px;
+    color: blue;
+}
+}
+@media (max-width: 767px) {
+    
+body{
+    background-image: url("/PaginaDePractica/pagina_de_gabriela/fondo_vertical.jpg");
+    }
+.huella {
+    width: 100%;
+    align-items: center;
+    display: flex;
+    padding-left: 21%;
+    padding-top: 14%;
+    }
+body header{
+    background-color: rgba(255, 255, 255, 0.8);;
+    height: 225px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 25% 75%;
+    grid-template-rows: 28% 72%;
+    position: fixed;
+    top: 0;
+    }
+header h1{
+    align-items: center;
+    display: flex;
+    height: 100%;
+    color: blueviolet;
+    }    
+.huella_cel{
+    height: 79px;
+    width: 56px;
+    }
+.elementos_cv{
+    grid-column: 2;
+    display: flex;
+    justify-content: center;
+    }
+.lista{
+    list-style: none;
+    width: 100%;
+    }
+.item{
+    text-decoration: none;
+    color: black;
+    height: 26px;
+    display: flex;
+    font-size: 24px;
+    width: 100%;
+    padding-left: 18%;
+    }
+aside{
+    display: none;
+    }
+div.ocultar img{
+    border-radius: 50%;
+    }
+.ocultar{
+    padding-left: 25%;
+    padding-top: 12%;
+    }
+.lista{
+    padding-left: 13%;
+       
+    }
+body section{
+    padding-top: 6%;
+    margin-right: 5%;
+    margin-left: 5%;
+    }
+.grupo-contenidos{
+    padding-top: 10%;
+    }
+header nav ul li{
+    width: 80%;
+    margin-left: 12%;
+    border-radius: 25px;
+    border: solid #E5E0DF ;
+    }
+header nav ul li:hover{
+    background-color: blueviolet;    
+    }
+header nav ul li a:hover{
+    color: white;
+    }
+.contenido_1, .contenido_2, .contenido_3, .contenido_4, .contenido_5{
+        
+    color: black;
+    margin-bottom: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+    height: 50%;
+    background-color: rgba(255, 255, 255, 0.8);
+    position: fixed;
+    overflow-y: auto;
+    right: 100%;
+    transition: right 0.3s;
+    z-index: -1;
+    }
+    article h2{
+        margin-left: 15%;
+        margin-top: 2%;
+    }
+    article p{
+        font-weight: bold;
+        width: 70%;
+        margin-left: 9%;
+        padding-top: 3%;
+        margin-bottom: 5%;
+    }
+    
+    ul li{
+        width: 70%;
+        margin: 0 auto;
+        padding-top: 1%;
+    }
+    ul:last-child{
+        margin-bottom: 5%;
+    }
+.visible{
+    margin-top: 60%;
+    right: 0;
+    position: relative;
+    }
+footer{
+    position: relative;
+    z-index: 2;
+}
+footer{
+    height: 60px;
+    display: flex;
+    margin-bottom: 5%;
+    }
+footer ul{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: space-around;
+    
+    }
+footer ul li{
+    background-color: rgba(255, 255, 255, 0.8);
+    display: flex;
+    width: 60px;
+    border-radius: 50%;
+}
+footer ul li a{
+    text-decoration: none;
+    align-items: center;
+    margin: 0 auto;
+    display: flex;
+    font-size: 30px;
+    color: blue;
+}
+footer ul li:hover, li a:hover{
+    background-color: blueviolet;
+    color: white;
+}
+    
+}
