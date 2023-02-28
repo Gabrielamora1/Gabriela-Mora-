@@ -9,7 +9,7 @@ body{
     background-repeat: no-repeat;
     background-size: 100% 100%;
 }
-
+/* codigo para el header*/
 body header{
     background-color: rgba(255, 255, 255, 0.8);
     height: 15%;
@@ -72,7 +72,7 @@ nav ul li:hover{
     transition: .5s;
     border-radius: 25px;
 }
-
+/* codigo para el aside*/
 aside{
     width: 25%;
     height: 70%;
@@ -82,8 +82,8 @@ aside div, img{
     padding-left: 5%;
     width: 100%;
     border-radius: 50%;
-  
 }
+/*codigo del article*/
 article h2{
     margin-left: 15%;
     margin-top: 2%;
@@ -102,9 +102,7 @@ article p{
 article p ul:last-child{
     margin-bottom: 5%;
 }
-
-.contenido_1, .contenido_2, .contenido_3, .contenido_4, .contenido_5{
-        
+.contenido_1, .contenido_2, .contenido_3, .contenido_4, .contenido_5{  
     color: black;
     width: 70%; 
     height: 50%;
@@ -117,23 +115,23 @@ article p ul:last-child{
     transition: right 0.3s;
     z-index: -1;
     padding-bottom: 3%;
-    }
+}
 .visible{
     right: 0;
     z-index: 1;
-    }
+}
+/* codigo del footer*/
 footer{
     height: 15%;
     display: flex;
     margin-left: 30%;
-    }
+}
 footer ul{
     display: flex;
     width: 100%;
     height: 100%;
     justify-content: space-around;
-    
-    }
+}
 footer ul li{
     background-color:rgba(255, 255, 255, 0.8);
     display: flex;
@@ -157,14 +155,14 @@ footer ul li:hover{
     
 body{
     background-image: url("https://raw.githubusercontent.com/Gabrielamora1/Gabriela-Mora-.github.io/main/fondo_vertical.jpg");
-    }
+}
 .huella {
     width: 100%;
     align-items: center;
     display: flex;
     padding-left: 21%;
     padding-top: 14%;
-    }
+}
 body header{
     background-color: rgba(255, 255, 255, 0.8);;
     height: 225px;
@@ -174,26 +172,27 @@ body header{
     grid-template-rows: 28% 72%;
     position: fixed;
     top: 0;
-    }
+}
 header h1{
     align-items: center;
     display: flex;
     height: 100%;
     color: blueviolet;
-    }    
+}    
 .huella_cel{
     height: 79px;
     width: 56px;
-    }
+}
 .elementos_cv{
     grid-column: 2;
     display: flex;
     justify-content: center;
-    }
+}
 .lista{
     list-style: none;
     width: 100%;
-    }
+    padding-left: 13%;  
+}
 .item{
     text-decoration: none;
     color: black;
@@ -202,43 +201,38 @@ header h1{
     font-size: 24px;
     width: 100%;
     padding-left: 18%;
-    }
+}
 aside{
     display: none;
-    }
+}
 div.ocultar img{
     border-radius: 50%;
-    }
+}
 .ocultar{
     padding-left: 25%;
     padding-top: 12%;
-    }
-.lista{
-    padding-left: 13%;
-       
-    }
+}
 body section{
     padding-top: 6%;
     margin-right: 5%;
     margin-left: 5%;
-    }
+}
 .grupo-contenidos{
     padding-top: 10%;
-    }
+}
 header nav ul li{
     width: 80%;
     margin-left: 12%;
     border-radius: 25px;
     border: solid #E5E0DF ;
-    }
+}
 header nav ul li:hover{
     background-color: blueviolet;    
-    }
+}
 header nav ul li a:hover{
     color: white;
-    }
-.contenido_1, .contenido_2, .contenido_3, .contenido_4, .contenido_5{
-        
+}
+.contenido_1, .contenido_2, .contenido_3, .contenido_4, .contenido_5{   
     color: black;
     margin-bottom: 5%;
     margin-left: 5%;
@@ -250,47 +244,44 @@ header nav ul li a:hover{
     right: 100%;
     transition: right 0.3s;
     z-index: -1;
-    }
-    article h2{
-        margin-left: 15%;
-        margin-top: 2%;
-    }
-    article p{
-        font-weight: bold;
-        width: 70%;
-        margin-left: 9%;
-        padding-top: 3%;
-        margin-bottom: 5%;
-    }
-    
-    ul li{
-        width: 70%;
-        margin: 0 auto;
-        padding-top: 1%;
-    }
-    ul:last-child{
-        margin-bottom: 5%;
-    }
+}
+article h2{
+    margin-left: 15%;
+    margin-top: 2%;
+}
+article p{
+    font-weight: bold;
+    width: 70%;
+    margin-left: 9%;
+    padding-top: 3%;
+    margin-bottom: 5%;
+}  
+ul li{
+    width: 70%;
+    margin: 0 auto;
+    padding-top: 1%;
+}
+ul:last-child{
+    margin-bottom: 5%;
+}
 .visible{
     margin-top: 60%;
     right: 0;
     position: relative;
-    }
+}
 footer{
     position: relative;
     z-index: 2;
-}
-footer{
     height: 60px;
     display: flex;
     margin-bottom: 5%;
-    }
+}
 footer ul{
     display: flex;
     width: 100%;
     height: 100%;
     justify-content: space-around;
-    }
+}
 footer ul li{
     background-color: rgba(255, 255, 255, 0.8);
     display: flex;
